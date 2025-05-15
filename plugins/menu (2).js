@@ -1462,6 +1462,3 @@ const aliveMessage = await conn.sendMessage(from, {
         reply(`*Oops! Something went wrong:*\n${e.message || e}`);
     }
 });
-Something went wrong:*\n${e.message || e}`);
-    }
-});
