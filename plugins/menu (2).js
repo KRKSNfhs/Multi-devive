@@ -1367,7 +1367,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         };
 
 const aliveMessage = await conn.sendMessage(from, { 
-            video: { url: `https://files.catbox.moe/n3tgjz.mp4?raw=true` }, 
+            video: { url: `https://files.catbox.moe/n3tgjz.mp4?=true` }, 
             mimetype: "video/mp4",
             ptv: true,
             contextInfo: {
